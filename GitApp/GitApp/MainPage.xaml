@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GitApp"
+             x:Class="GitApp.MainPage">
+
+	<StackLayout>
+		<Label  Text="Avoid triggering the bomb!"
+				VerticalOptions="Center" 
+				HorizontalOptions="Center" />
+		<Button Text="1"
+				VerticalOptions="CenterAndExpand"
+				HorizontalOptions="Center"
+				Clicked="ButtonClicked"
+				BackgroundColor="RoyalBlue"
+				WidthRequest="100"/>
+		<Button Text="2"
+				VerticalOptions="CenterAndExpand"
+				HorizontalOptions="Center"
+				Clicked="ButtonClicked"
+				BackgroundColor="ForestGreen"
+				WidthRequest="100"/>
+		<Button Text="3"
+				VerticalOptions="CenterAndExpand"
+				HorizontalOptions="Center"
+				Clicked="ButtonClicked"
+				BackgroundColor="PaleVioletRed"
+				WidthRequest="100"/>
+	</StackLayout>
+</ContentPage>
